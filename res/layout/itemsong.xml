@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:background="#FFFFFF"
+              android:layout_width="match_parent"
+              android:layout_height="60dp">
+    <LinearLayout android:layout_width="0dp"
+                  android:orientation="vertical"
+                  android:layout_weight="1"
+                  android:layout_height="match_parent">
+        <TextView android:id="@+id/tv_SongName"
+                  android:layout_width="match_parent"
+                  android:text="Blue"
+                  android:gravity="center_vertical"
+                  android:layout_marginLeft="15dp"
+                  android:textSize="20dp"
+                  android:textStyle="bold"
+                  android:textColor="#9c27b0"
+                  android:layout_height="0dp"
+                  android:layout_weight="1"/>
+        <TextView android:id="@+id/tv_SongArtist"
+                  android:layout_width="match_parent"
+                  android:text="BigBang"
+                  android:gravity="center_vertical"
+                  android:layout_marginLeft="15dp"
+                  android:textSize="20dp"
+                  android:textColor="#9c27b0"
+                  android:layout_height="0dp"
+                  android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="0dp"
+                  android:orientation="horizontal"
+                  android:layout_weight="1"
+                  android:layout_height="match_parent">
+        <TextView android:id="@+id/tv_SongTime"
+                  android:layout_width="0dp"
+                  android:layout_weight="3"
+                  android:text="3:53"
+                  android:gravity="center_vertical|right"
+                  android:textSize="20dp"
+                  android:textColor="#9c27b0"
+                  android:paddingRight="20dp"
+                  android:layout_height="match_parent"/>
+        <ImageView android:id="@+id/iv_LoveSong"
+                   android:layout_width="0dp"
+                   android:scaleType="centerInside"
+                   android:layout_weight="1"
+                   android:layout_height="match_parent"/>
+        <ImageView android:id="@+id/bt_Setting"
+                   android:layout_width="0dp"
+                   android:scaleType="centerInside"
+                   android:src="@drawable/dots"
+                   android:layout_weight="1"
+                   android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+</LinearLayout>
